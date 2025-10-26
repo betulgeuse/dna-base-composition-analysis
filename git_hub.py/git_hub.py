@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Example DNA sequence (you can replace it with your own)
+# Example DNA sequence 
 dna_sequence = "ATGCTTAGCGATCGATCGCTTAGCGATCGATGCTAGC"
 
 # Step 1: Count the frequency of each base
@@ -29,4 +29,5 @@ plt.title("DNA Base Composition")
 plt.xlabel("Base")
 plt.ylabel("Percentage (%)")
 plt.grid(axis="y", linestyle="--", alpha=0.7)
+
 plt.show()
